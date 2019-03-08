@@ -60,7 +60,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Destroy.cs" />
+    <Compile Include="Assets\Scripts\BallHit.cs" />
+    <Compile Include="Assets\Scripts\Destroy_3.cs" />
+    <Compile Include="Assets\Scripts\Destroy_5.cs" />
+    <Compile Include="Assets\Scripts\Destroy_8.cs" />
+    <Compile Include="Assets\Scripts\ScoreScript.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/2019Winter/VR/HitBallGame/HitBallGame/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
