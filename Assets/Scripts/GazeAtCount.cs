@@ -5,7 +5,6 @@ using System.Collections;
 
 public class GazeAtCount : MonoBehaviour
 {
-
     // Whether the Google Cardboard user is gazing at this button.
     private bool isLookedAt = false;
 

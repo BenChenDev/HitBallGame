@@ -3,24 +3,30 @@ using UnityEngine;
 
 public class Destroy_8 : MonoBehaviour
 {
-    public AudioSource Audio;
+    AudioSource tickSource;
+    private Vector3 position;
     void Start()
     {
-        Audio = GetComponent<AudioSource>();
-        if (Audio == null) {
-            Debug.Log("sound null.");
-        }
+        tickSource = GetComponent<AudioSource>();
     }
 
-    void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.tag == "Ball")
+    public void distory() {
+        Debug.Log("Destroyed");
+
+
+        ScoreScript.scoreValue += 5;
+        tickSource.Play();
+        Debug.Log("sound effect!");
+        if (ScoreScript.scoreValue == 50)
         {
-            Audio.Play();
-            Debug.Log("Destroyed");
-            Destroy(this.gameObject);
-            
-            ScoreScript.scoreValue += 8;
+            //do nothing;
         }
+        else
+        {
+            position = new Vector3(Random.Range(-14f, 14f), Random.Range(0.7f, 6f), Random.Range(-14f, 14f));
+            Instantiate(Resources.Load("8Score"), position, Quaternion.identity);
+        }
+        
+        Destroy(this.gameObject, 0.3f);
     }
 }

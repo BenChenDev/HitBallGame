@@ -183,6 +183,7 @@
     <Compile Include="Assets\Scripts\Destroy_3.cs" />
     <Compile Include="Assets\Scripts\Destroy_5.cs" />
     <Compile Include="Assets\Scripts\Destroy_8.cs" />
+    <Compile Include="Assets\Scripts\DestroyTimeout.cs" />
     <Compile Include="Assets\Scripts\DragMe.cs" />
     <Compile Include="Assets\Scripts\DragPanel.cs" />
     <Compile Include="Assets\Scripts\DropMe.cs" />
@@ -194,8 +195,9 @@
     <Compile Include="Assets\Scripts\ScoreScript.cs" />
     <Compile Include="Assets\Scripts\ScrollDetailTexture.cs" />
     <Compile Include="Assets\Scripts\ShowSliderValue.cs" />
+    <Compile Include="Assets\Scripts\StartGame.cs" />
     <Compile Include="Assets\Scripts\TiltWindow.cs" />
-    <Compile Include="Assets\StartGame.cs" />
+    <Compile Include="Assets\ShowRetryMenu.cs" />
     <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
     <None Include="Assets\Fonts\Jupiter\LICENSE.txt" />
     <None Include="Assets\GoogleVR\Shaders\GvrAdditiveOverlay.shader" />
