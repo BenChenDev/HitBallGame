@@ -22,6 +22,9 @@ public class StartGame : MonoBehaviour
     public void startGame() {
         Debug.Log("Start Game!!");
         mainMenu.SetActive(false);
+        if (!ScoreScript.bgm.isPlaying) {
+            ScoreScript.bgm.Play();
+        }
         if (ScoreScript.scoreValue != 0) {
             ScoreScript.scoreValue = 0;
             

@@ -19,7 +19,7 @@ public class Destroy_8 : MonoBehaviour
         Debug.Log("sound effect!");
         if (ScoreScript.scoreValue == 50)
         {
-            //do nothing;
+            //do nothing
         }
         else
         {

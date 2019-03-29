@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 498}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -92,10 +92,10 @@ MonoBehaviour:
     y: 30
     width: 1536
     height: 731
-  m_MinSize: {x: 911, y: 448}
-  m_MaxSize: {x: 22006, y: 10024}
+  m_MinSize: {x: 917, y: 448}
+  m_MaxSize: {x: 22012, y: 10024}
   vertical: 0
-  controlID: 153
+  controlID: 81
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -161,8 +161,8 @@ MonoBehaviour:
     y: 0
     width: 204
     height: 731
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 204, y: 224}
+  m_MaxSize: {x: 4004, y: 4024}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -213,8 +213,8 @@ MonoBehaviour:
     y: 0
     width: 343
     height: 731
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 74}
+  m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -301,20 +301,20 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 2cfafeff
-      m_LastClickedID: -67028
-      m_ExpandedIDs: 44fafeff5cfafeff64fafeff94fcfeff8cfdfeff1e00ffffc014ffff4a15ffff2019ffffa01bffff6c20ffffaa20ffffa423ffff7c24ffffa4c2ffffa6c2ffff38f5ffff20f7ffff4cf7ffff6cf7ffffa0f8ffffccf8ffffbafbffff98330000a8330000f43300000c340000da060100ae0b0100840c0100d40c01009e150100ae150100da150100dc150100041601000c16010016160100
+      m_SelectedIDs: 8cf9ffff
+      m_LastClickedID: -1652
+      m_ExpandedIDs: 8cf9ffff9cf9ffffc0f9ffffd4fbffff8c2e00009c2e0000c42e0000c82e0000ca2e0000f22e0000fa2e0000042f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Text
-        m_OriginalName: Text
+        m_Name: MainMenu
+        m_OriginalName: MainMenu
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 71062
+        m_UserData: 11978
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
         m_OriginalEventType: 0
@@ -400,20 +400,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Materials
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\2019Winter\VR\HitBallGame\HitBallGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a22a0000
-    m_LastClickedID: 10914
-    m_ExpandedIDs: 00000000fa270000fc290000062a0000be2a000000ca9a3b
+    m_SelectedIDs: ea270000
+    m_LastClickedID: 10218
+    m_ExpandedIDs: 00000000ea270000202a00002c2a0000ec2a000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -441,7 +441,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000fa270000bc280000f6290000fc290000062a0000be2a0000062b0000222c0000
+    m_ExpandedIDs: 00000000ea270000202a00002c2a0000ec2a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -608,9 +608,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1, y: 2.3282368, z: 13.99}
+    m_Target: {x: -1, y: 4.8713007, z: 13.99}
     speed: 2
-    m_Value: {x: -1, y: 2.3282368, z: 13.99}
+    m_Value: {x: -1, y: 4.8713007, z: 13.99}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
